@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rocket-design/static/css/main.0e7eebb5.css",
+    "main.js": "/Rocket-design/static/js/main.1d96c439.js",
+    "index.html": "/Rocket-design/index.html",
+    "main.0e7eebb5.css.map": "/Rocket-design/static/css/main.0e7eebb5.css.map",
+    "main.1d96c439.js.map": "/Rocket-design/static/js/main.1d96c439.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e7eebb5.css",
+    "static/js/main.1d96c439.js"
+  ]
+}
