@@ -1,0 +1,44 @@
+.Mymodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background:  rgba(0, 0, 0, 0.5);
+}
+
+.MymodalContent {
+    padding: 10% 3% 10% 3%;
+    background: white;
+    border-radius: 16px;
+    min-width: 150px;
+    max-height: 200px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .MymodalContent {
+        padding: 10% 3% 10% 3%;
+        background: white;
+        border-radius: 16px;
+        min-width: 150px;
+        max-height: 300px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .MymodalContent {
+        padding: 10% 1% 10% 1%;
+        background: white;
+        border-radius: 16px;
+        min-width: 150px;
+        max-height: 300px;
+    }
+}
+
+.Mymodal.active {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

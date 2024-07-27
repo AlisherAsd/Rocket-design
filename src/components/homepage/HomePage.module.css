@@ -1,0 +1,65 @@
+.content {
+    background-color: rgb(255, 255, 255);
+}
+
+.price p {
+    text-align: center;
+    padding: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.card {
+    flex-direction: column;
+}
+
+.cards {
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 30%);
+    width: 100%;
+    max-width: 100%; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 10px; /* Отступ между колонками */
+    row-gap: 0px; /* Отступ между рядами */
+    margin: 0 auto;
+  }
+
+@media only screen and (min-width: 1200px) {
+    .top_card img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .top_card img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .top_card img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .top_card img {
+        width: 100%;
+    }
+}
+
+.info {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 30px;
+}
+
+.bottom_card {
+    text-align: center;
+    padding: 20px;
+}

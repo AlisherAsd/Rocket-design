@@ -1,0 +1,21 @@
+.messages {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.mess {
+    border: 3px solid grey;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 5% 10% 0 10%;
+}
+
+.ModalCard img {
+    height: 300
+}

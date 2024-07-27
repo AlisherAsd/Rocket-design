@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(57, 59, 150);
+  }
+
+  .menu {
+    flex-grow: 1;
+    margin-left: 500px;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .menu {
+      flex-grow: 1;
+      margin-left: 50px;
+    }
+  
+  }
+
+  @media only screen and (min-width: 700px) {
+    .menu {
+      flex-grow: 1;
+      margin-left: 200px;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    .menu {
+      flex-grow: 1;
+      margin-left: 400px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .menu {
+      flex-grow: 1;
+      margin-left: 600px;
+    }
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+
+  .menu li {
+    margin-right: 20px;
+    
+  }
+
+  .menu a {
+    color: white;
+    text-decoration: none;
+  }

@@ -1,0 +1,17 @@
+.Form {
+    text-align: center;
+    padding: 0px 20% 100px 20%;
+}
+
+
+.Form label {
+    margin-right: 0px;
+}
+
+.Form p {
+    padding: 20px;
+}
+
+.Form input {
+    padding: 0px;
+}

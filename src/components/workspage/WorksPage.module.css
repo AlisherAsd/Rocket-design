@@ -1,0 +1,102 @@
+.ssulka p {
+    text-align: center;
+    padding: 50px;
+}
+
+.Myinput {
+    padding: 50px 50px 30px 50px; 
+}
+
+.card {
+    flex-direction: column;
+}
+
+.cards {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 30%);
+    width: 100%;
+    max-width: 100%; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 10px; /* Отступ между колонками */
+    row-gap: 30px; /* Отступ между рядами */
+    margin: 0 auto;
+  }
+
+@media only screen and (min-width: 1200px) {
+    .card img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .card img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .card img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .card img {
+        width: 100%;
+    }
+}
+
+.info {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.bottom_card {
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+    
+}
+
+@media only screen and (min-width: 300px) {
+    .ModalCard img {
+        margin-bottom: 100px;
+        height: 200px;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .ModalCard img {
+        height: 170px;
+        bottom: 0px;
+    }
+    .info {
+        bottom: 200px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .ModalCard img {
+        height: 170px;
+        bottom: 0px;
+    }
+    .info {
+        margin-bottom: 200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .ModalCard img {
+        height: 250px;
+        bottom: 0px;
+    }
+    .info {
+        margin-bottom: 200px;
+    }
+}
